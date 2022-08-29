@@ -2,7 +2,7 @@ import * as echarts from "echarts"
 import ReactEChart from "echarts-for-react"
 import {data} from "../../Data/Data"
 import { useEffect, useState } from 'react';
-import "./Bar.css"
+
 const Bar = () => {
    const [alcoholData,setAlcoholData]=useState([])
    const [MalicAcidData,setMalicAcidData]=useState([])
