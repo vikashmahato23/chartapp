@@ -1,0 +1,17 @@
+h1{
+    position:relative;
+    top : -60px ;
+    background: -webkit-linear-gradient(rgb(18, 150, 167), rgb(31, 112, 170));
+  -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+
+}
+div :nth-child(3){
+    position:relative;
+    left : -600px ;
+    top:-350px;
+    background: -webkit-linear-gradient(rgb(18, 150, 167), rgb(31, 112, 170));
+  -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    transform: rotate(-90deg);
+}
